@@ -3,6 +3,12 @@
   font-family: "Roboto";
 }
 
+p-panel >>> .ui-panel {
+  margin-top: 1em;
+  width: 98%;
+  min-height: 300px;
+}
+
 .header {
   padding: 1em;
   color: white;
@@ -23,21 +29,21 @@ h3 {
 }
 
 p-dataTable >>> .ui-datatable-footer {
-  min-height: 60px;
+  min-height: 75px;
 }
 
 p-dataTable >>> .ui-datatable-footer input {
   margin-left: 0.5em;
   font-size: larger;
-  padding: 3px;
+  padding: 5px;
 }
 
 p-dataTable >>> .ui-datatable-footer {
-  min-height: 60px;
+  min-height: 75px;
 }
 
 p-dataTable >>> .selectBoxColumn {
-  width: 43px;
+  width: 50px;
 }
 
 p-contextMenu >>> .ui-menuitem-active a {
